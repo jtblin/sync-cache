@@ -1,0 +1,32 @@
+{
+  "name": "sync-cache",
+  "version": "0.0.1",
+  "description": "Cache for synchronous modules e.g. using Fibers based on Isaac's AsyncCache",
+  "main": "sync-cache.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha -w test/"
+  },
+  "keywords": [
+    "cache",
+    "lru",
+    "sync",
+    "syncho",
+    "fibers"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtblin/sync-cache"
+  },
+  "author": "Jerome Touffe-Blin <jtblin@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "lru-cache": "~2.5.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1",
+    "syncho": "0.0.2",
+    "sinon": "~1.9.0",
+    "sinon-chai": "~2.5.0"
+  }
+}
